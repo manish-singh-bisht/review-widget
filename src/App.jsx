@@ -7,7 +7,7 @@ import Error from "./components/Error";
 function App() {
   return (
     <BrowserRouter>
-      <div className="bg-black min-h-screen h-full w-screen text-white px-14">
+      <div className="bg-black min-h-screen h-full w-screen text-white">
         <Routes>
           <Route exact path="/:name" element={<Review />} />
           <Route path="*" element={<Error />} />
