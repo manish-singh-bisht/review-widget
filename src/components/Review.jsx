@@ -28,7 +28,7 @@ const Review = () => {
   const fetchData = async () => {
     try {
       const response = await axios.get(
-        `${API_BASE_URL}/public/spaces/reviews/${name}`
+        `${API_BASE_URL}/spaces/reviews/${name}`
       );
       setSpaceData(response.data);
     } catch (error) {
