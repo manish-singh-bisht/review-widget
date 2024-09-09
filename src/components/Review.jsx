@@ -57,7 +57,7 @@ const Review = () => {
   ) : (
     spaceData && (
       <div
-        className={`py-10 relative rounded-lg border flex flex-col gap-10 text-center w-full ${
+        className={`py-10 min-h-screen h-full relative rounded-lg border flex flex-col gap-10 text-center w-full ${
           spaceData.theme === "dark" ? "bg-black" : "bg-white"
         } ${textColor}`}
       >
