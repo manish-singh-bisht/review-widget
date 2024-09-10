@@ -164,7 +164,7 @@ const ReviewForm = ({ closeDialog, spaceData, activeTabHandler }) => {
             </Button>
             <Button
               type="submit"
-              className="bg-main hover:bg-main/60 text-white"
+              className="bg-blue-500 hover:bg-blue-500/60 text-white"
               disabled={isLoading || emailError || reviewData.rating === 0}
             >
               {isLoading ? "Sending..." : "Send"}
